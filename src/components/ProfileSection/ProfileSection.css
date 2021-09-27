@@ -1,0 +1,16 @@
+.follow-me {
+    position: relative;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.follow-me::after {
+    content: "";
+    width: 53px;
+    height: 2px;
+    background: #34d399;
+    position: absolute;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 8px;
+}

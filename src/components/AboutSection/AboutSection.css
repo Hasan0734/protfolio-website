@@ -1,0 +1,13 @@
+.about-me{
+  margin-left: 23px;
+}
+.about-me::before{
+    content: "";
+    position: absolute;
+    background: #34d399;
+    height: 2px;
+    width: 63px;
+    right: -63px;
+    bottom: 17px;
+
+}
