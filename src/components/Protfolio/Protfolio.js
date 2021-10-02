@@ -8,7 +8,7 @@ const Protfolio = () => {
     return (
         <section className="py-36 sm:pt-24 relative">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:pl-16">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:pr-16">
                     {protfolioData.map((data, index) => <ProtfolioCard data ={data} key={index}></ProtfolioCard>)}
                 </div>
             </div>
