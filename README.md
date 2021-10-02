@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
+=======
+# My Protfolio website
+>>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
