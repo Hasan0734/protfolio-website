@@ -12,18 +12,12 @@ const interesting = [
 const InterestSection = () => {
     return (
         <section className="py-36  sm:pt-24 relative ">
-<<<<<<< HEAD
             <div className="container mx-auto px-4">
                 <div className="flex flex-col sm:flex-row gap-8 pr-0 sm:pr-24 justify-center sm:justify-start">
-                    {interesting.map((interest, index) => (<div 
-                    data-aos-duration="3000"
-                    data-aos={index === 0 ? 'fade-up-right' : index === 1 ? 'fade-down-left': index === 2 ? 'fade-up-right' : index === 3 && 'fade-down-left' }
-                     className="py-11 px-6 bg-gray-800 rounded">
-=======
-            <div className="container mx-auto p-2">
-                <div className="flex wrapper gap-8 pr-24">
-                    {interesting.map(interest => (<div className="py-11 px-6 bg-gray-800 rounded">
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
+                    {interesting.map((interest, index) => (<div
+                        data-aos-duration="3000"
+                        data-aos={index === 0 ? 'fade-up-right' : index === 1 ? 'fade-down-left' : index === 2 ? 'fade-up-right' : index === 3 && 'fade-down-left'}
+                        className="py-11 px-6 bg-gray-800 rounded">
 
                         <img className="w-2/6 mx-auto" src={interest.icon} alt="..." />
                         <h3 className="text-white text-center text-2xl font-bold pt-2">{interest.title}</h3>
@@ -31,18 +25,9 @@ const InterestSection = () => {
                     ))}
                 </div>
             </div>
-            <p
-                className="
-<<<<<<< HEAD
-                hidden sm:block
-=======
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
-            text-white transform rotate-90  
-            text-right top-1/4 
-            absolute right-0 uppercase
-             rounded-md bg-gray-800 py-1 px-3
-              font-semibold text-xl tracking-wide
-               about-me">Love To Do</p>
+            <p className=" hidden sm:block text-white transform rotate-90  text-right top-1/4  absolute right-0 uppercase
+               
+                rounded-md bg-gray-800 py-1 px-3 font-semibold text-xl tracking-wide about-me">Love To Do</p>
 
         </section>
     );

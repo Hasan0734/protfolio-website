@@ -1,17 +1,12 @@
 import React, { useRef } from 'react';
 import AboutSection from '../AboutSection/AboutSection';
-<<<<<<< HEAD
-import Contact from '../Contact/Contact';
-import InterestSection from '../InterestSection/InterestSection';
-import Navbar from '../Navbar/Navbar';
-import ProfileSection from '../ProfileSection/ProfileSection';
 import Protfolio from '../Protfolio/Protfolio';
-=======
-import InterestSection from '../InterestSection/InterestSection';
+
+import Contact from '../Contact/Contact';
 import Navbar from '../Navbar/Navbar';
 import ProfileSection from '../ProfileSection/ProfileSection';
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
 import SkillSection from '../SkillSection/SkillSection';
+import InterestSection from '../InterestSection/InterestSection'
 
 const Home = () => {
     const aboutSection = useRef(null);
@@ -32,11 +27,8 @@ const Home = () => {
             <AboutSection aboutSection={aboutSection} handleSectionView={handleSectionView}></AboutSection>
             <SkillSection skillSection={skillSection}></SkillSection>
             <InterestSection></InterestSection>
-<<<<<<< HEAD
             <Protfolio></Protfolio>
             <Contact></Contact>
-=======
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
         </div>
     );
 };

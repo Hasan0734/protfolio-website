@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../image/logo.png'
 
-const Navbar = ({handleSectionView}) => {
+const Navbar = ({ handleSectionView }) => {
   const [toggle, setToggle] = useState(false)
 
   return (
@@ -25,19 +25,11 @@ const Navbar = ({handleSectionView}) => {
             </div>
             <div className={`${toggle ? 'block hover:transition duration-700 ease-in-out' : 'hidden'} sm:block sm:bg-gray-800 top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto`} id="navigation">
               <div className="lg:inline-flex lg:flex-row lg:ml-auto  flex flex-col sm:flex-row  align-center uppercase ">
-<<<<<<< HEAD
-                <span  onClick={() => handleSectionView('about')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium  mt-2 sm:mt-0" >About</span>
-                <span  onClick={() => handleSectionView('skill')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Skill</span>
-                <span  className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Portfolio</span>
-                <span  className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Contact</span>
+                <span onClick={() => handleSectionView('about')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium  mt-2 sm:mt-0" >About</span>
+                <span onClick={() => handleSectionView('skill')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Skill</span>
+                <span className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Portfolio</span>
+                <span className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Contact</span>
                 <span className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Blog</span>
-=======
-                <button onClick={() => handleSectionView('about')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium  mt-2 sm:mt-0" >About</button>
-                <button onClick={() => handleSectionView('skill')} className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Skill</button>
-                <a href="#protfolio" className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Portfolio</a>
-                <a href="#contact" className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Contact</a>
-                <a href="#blog" className="ml-0 sm:ml-4 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mt-2 sm:mt-0">Blog</a>
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
                 <button className="ml-4 sm:ml-4 sm:w-auto w-28 rounded-md px-3 py-2 text-sm   text-gray-300 hover:text-green-400 uppercase  font-medium mt-2 sm:mt-0 ring-2 ring-green-400 ring-opacity-100">Resume</button>
               </div>
             </div>

@@ -17,25 +17,14 @@ const ProfileSection = ({ handleSectionView }) => {
                             <li><a className="hover:bg-gray-700 rounded-md  p-2 mt-2 pr-3.5" href="#github"><FontAwesomeIcon icon={faFacebookF} /></a></li>
                             <li><a className="hover:bg-gray-700 rounded-md  p-2 mt-2" href="#github"><FontAwesomeIcon icon={faTwitter} /></a></li>
                         </ul>
-<<<<<<< HEAD
 
                         <p className="text-white transform 
-=======
-                        {/* <p className="uppercase rounded-md lg:transform 
-                        bg-gray-700 px-3 lg:-rotate-90 follow-me lg:mt-28 
-                        font-semibold text-xl tracking-wide" >Follow Me</p> */}
-                        <p  className="text-white transform 
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
                       -rotate-90  text-right  mt-28 
                          uppercase rounded-md bg-gray-800 py-1 px-3 font-semibold
                          text-xl tracking-wide skill">Follow Me</p>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div className="container mx-auto px-4 md:mt-16 lg:mt-48">
-=======
-                <div className="container mx-auto px-2 md:mt-16 lg:mt-48">
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
                     <div className="flex flex-col-reverse sm:flex-row">
                         <div className="font-sans">
                             <p className="text-green-400 text-3xl filter brightness-125">Hello! I am</p>
@@ -47,21 +36,12 @@ const ProfileSection = ({ handleSectionView }) => {
                                 <li className="mr-3 px-3">Cyber Security Expert</li>
                             </ul>
                             <button data-aos="fade-left" data-aos-duration="3000"
-<<<<<<< HEAD
 
                                 className="bg-green-400 hover:bg-green-500 p-2 text-white rounded-md mr-3 mt-4 font-medium">Get Resume</button>
                             <button data-aos="fade-right" data-aos-duration="3000"
                                 onClick={() => handleSectionView('about')} className="rounded-md ring-2 ring-green-400 p-2 mt-4 text-white hover:text-green-400 font-medium">About Me</button>
                         </div>
                         <div className="flex justify-center sm:justify-end md:justify-center my-6 sm:mt-0">
-=======
-                            
-                            className="bg-green-400 hover:bg-green-500 p-2 text-white rounded-md mr-3 mt-4 font-medium">Get Resume</button>
-                            <button data-aos="fade-right" data-aos-duration="3000" 
-                            onClick={() => handleSectionView('about')} className="rounded-md ring-2 ring-green-400 p-2 mt-4 text-white hover:text-green-400 font-medium">About Me</button>
-                        </div>
-                        <div className="flex justify-center sm:justify-end md:justify-center mt-5 sm:mt-0">
->>>>>>> f2026866599ecb1e11b6d3fe18a464237334c1e6
                             <img data-aos="fade-up-left" data-aos-duration="3000" className="w-9/12 object-contain" src={profilePic} alt="..." />
                         </div>
                     </div>
